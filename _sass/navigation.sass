@@ -1,0 +1,44 @@
+//SIDE NAV COLLPSED
+.side-nav
+  width: 0
+  overflow: hidden
+  position: fixed
+  top: 0
+  left: 0
+  height: 100%
+  transition: width 0.3s ease
+
+#side-nav:target
+  width: 100%
+  overflow: hidden
+  position: fixed
+  top: 0
+  left: 0
+  height: 100%
+  background-color: rgba(255, 255, 255, 0.5)
+  transition: width 0.3s ease
+
+li.close
+  margin-top: 30px
+
+div.side-nav li a
+  display: block
+  text-decoration: none
+  text-transform: uppercase
+  font-size: 20px
+  text-align: center
+  padding-top: 5px
+  padding-bottom: 5px
+  color: black
+  font-weight: lighter
+
+
+div.side-nav li:hover a
+  background-color: rgb(255, 255, 255)
+  color: #F44336
+
+//WHITE BACKGROUND
+div.side-nav ul
+  background-color: rgba(255, 255, 255, 0.85)
+  width: 200px
+  height: 100% 
