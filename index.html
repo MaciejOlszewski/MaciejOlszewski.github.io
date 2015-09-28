@@ -6,10 +6,15 @@ layout: default
   <section class="row">
       <img src="{{ site.url }}/images/post_imgs/{{post.img}}" alt="{{ post.title }}" class="circle">
       <a href="{{ site.url }}/{{ post.permalink }}"class="title">{{ post.title }}</a>
-      <span class="label">{{ post.label }}</span>
+      {% if post.label == "Post" %}
+      <span class="label-post">{{ post.label }}</span>
+      {% elsif post.label == "Project" %}
+      <span class="label-project">{{ post.label }}</span>
+      {% endif %}
       <span class="date">{{ post.date | date: "%d %b %Y" }}</span>
       <p class="text">{{post.short-desc}}</p>
   </section>
+  
 {% endfor %}
 
 
@@ -18,7 +23,7 @@ layout: default
 <section class="row">
     <img src="http://placehold.it/140x140" alt="" class="circle">
     <span class="title">Lorem ipsum.</span>
-    <span class="label">Lorem.</span>
+    <span class="label-blue">Lorem.</span>
     <span class="date">20th Autgust 2015</span>
     <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nisi alias vitae! Alias nihil quibusdam facilis iste, illo quos perferendis id ea mollitia cum tempore, at debitis magnam autem voluptates.</p>
   </section>

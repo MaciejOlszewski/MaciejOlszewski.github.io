@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2015-09-28 19:20:00
+label: Post
+short-desc: Test post short aaaaaaaaaaaa sa ds
+img: test.png
+permalink: Welcome
+---
+Test post
