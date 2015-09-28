@@ -1,0 +1,15 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+---
+<p>
+  Send me a message:
+</p>
+
+<form action="https://getsimpleform.com/messages?form_api_token=68e5c0795575d761af2ef87bd4bc2441" method="post">
+  <input type='hidden' name='redirect_to' value='{{ site.url }}/message-sent/' />
+  <input placeholder="Your Name" name='name: 'type='text'  /><br>
+  <textarea placeholder="Message" name='content: ' type='text'></textarea><br>
+  <input class="btn-submit" type='submit' value='Send' />
+</form>

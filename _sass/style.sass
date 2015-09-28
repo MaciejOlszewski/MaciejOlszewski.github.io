@@ -3,8 +3,19 @@
   margin: 0
   padding: 0
 
+html,body
+  height: 100%
+.page-wrap
+  min-height: 100%
+  margin-bottom: -40px
+.page-wrap:after
+  content: ""
+  display: block
+  height: 40px
+
 @import "colors"
 @import "navigation"
 @import "header"
 @import "sections"
 @import "footer"
+@import "contact"
