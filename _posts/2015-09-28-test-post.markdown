@@ -5,6 +5,6 @@ date:   2015-09-22 19:20:00
 label: Post
 short-desc: Test post short aaaaaaaaaaaa sa ds
 img: test.png
-permalink: Welcome
+permalink: test
 ---
 Test post

@@ -1,15 +1,20 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+<section class="row post">
+  <img src="{{ site.url }}/images/post_imgs/{{page.img}}" alt="{{ page.title }}" class="circle">
+
+  {% if post.label == "Post" %}
+  <span class="label-post">{{ page.label }}</span>
+  {% elsif post.label == "Project" %}
+  <span class="label-project">{{ page.label }}</span>
+  {% endif %}
+  <span class="date">{{ page.date | date: "%d %b %Y" }}</span>
+</section>
+
 
   <article class="post-content">
+    <span class="title">{{ page.title }}</span>
     {{ content }}
   </article>
-
-</div>

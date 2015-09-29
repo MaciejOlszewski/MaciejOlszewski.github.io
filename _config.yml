@@ -10,8 +10,7 @@ github_username:  MaciejOlszewski
 
 # Build settings
 markdown: kramdown
-
-
+highlighter: pygments
 permalink: pretty
 
 # gems:
