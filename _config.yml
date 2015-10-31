@@ -13,6 +13,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# gems:
-  # - jekyll-sitemap
+gems:
+  - jekyll-sitemap
   # - jekyll-minifier
