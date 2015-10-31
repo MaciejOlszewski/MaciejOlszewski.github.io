@@ -12,11 +12,9 @@ layout: default
   {% endif %}
   <span class="date">{{ page.date | date: "%d %b %Y" }}</span>
 </section>
-
-
-  <article class="post-content">
-    <span class="title">{{ page.title }}</span>
-    {{ content }}
-  </article>
-
-    <a class="see-on-github" href="https://github.com/MaciejOlszewski/{{page.permalink}}">See on Github</a>
+<article class="post-content">
+  <span class="title">{{ page.title }}</span>
+  {{ content }}
+      <a class="see-on-github" href="https://github.com/MaciejOlszewski/{{page.permalink}}">See on Github</a>
+      <div class="clearfix"></div>
+</article>

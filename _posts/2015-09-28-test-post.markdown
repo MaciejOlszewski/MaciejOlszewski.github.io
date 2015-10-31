@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Test"
 date:   2015-09-22 19:20:00
 label: Post
 short-desc: Test post short aaaaaaaaaaaa sa ds

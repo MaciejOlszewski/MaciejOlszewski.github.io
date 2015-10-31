@@ -17,5 +17,3 @@ function dim(){
   document.getElementById('w').innerHTML = w;
 }
 {% endhighlight %}
-
-_You can play with it [here](http://maciejolszewski.github.io/ViewportSize/){:target="_blank"}._
