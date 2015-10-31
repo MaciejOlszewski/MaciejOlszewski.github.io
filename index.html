@@ -4,7 +4,7 @@ layout: default
 {% for post in site.posts %}
 
   <section class="row">
-      <img src="{{ site.url }}/images/post_imgs/{{post.img}}" alt="{{ post.title }}" class="circle">
+      <a href="{{ site.url }}/{{ post.permalink }}"><img src="{{ site.url }}/images/post_imgs/{{post.img}}" alt="{{ post.title }}" class="circle"></a>
       <a href="{{ site.url }}/{{ post.permalink }}"class="title">{{ post.title }}</a>
       {% if post.label == "Post" %}
       <span class="label-post">{{ post.label }}</span>
