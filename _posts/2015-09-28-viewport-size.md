@@ -7,7 +7,7 @@ short-desc: Simple viewport size presentation page
 img: viewport-size.jpg
 permalink: ViewportSize
 ---
-Extremely simple viewport size presentation script that outputs Your viewport size to screen.
+Extremely simple viewport size presentation script that outputs your viewport size to screen.
 
 {% highlight javascript %}
 function dim(){
