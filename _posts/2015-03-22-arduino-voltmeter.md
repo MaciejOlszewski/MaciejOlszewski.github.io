@@ -22,7 +22,7 @@ int sum = 0;
 // samples count
 unsigned char sample_count = 0;
 // calculated voltage
-float napiecie = 0.0;            
+float voltage = 0.0;            
 
 
 void setup() {
@@ -40,17 +40,17 @@ void loop() {
         sample_count++;
         delay(10);
     }
-  napiecie = ((float)sum / (float)number_of_samples * 4.90) / 1024.0;
+  voltage = ((float)sum / (float)number_of_samples * 4.90) / 1024.0;
   //4.90 is a value on 5V pin of Arduino wich is used as reference to calculate voltage on sensor pin,
   //you have to "calibrate" voltmeter putting here measured value on +5V
-  Serial.print(napiecie);
+  Serial.print(voltage);
   Serial.println (" V");
   sample_count = 0;
   sum = 0;
   // set LCD cursor on column 0 and row 1 (we count LCD rows and columns from 0!)
   lcd.setCursor(0, 1);
   // prints voltage
-  lcd.print(napiecie);
+  lcd.print(voltage);
   // set LCD cursor on column 4 and row 1 (we count LCD rows and columns from 0!)
   lcd.setCursor(4, 1);
   // Volts "V"
@@ -64,3 +64,4 @@ void loop() {
 
 
 ![schema](/images/post_imgs/LCD_schem.jpg)
+![final](/images/post_imgs/LCD-voltmeter.jpg)
