@@ -4,3 +4,4 @@ _materials
 .jekyll-metadata
 *.db
 _notes
+_config-dev.yml

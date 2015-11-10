@@ -2,7 +2,7 @@
   font-family: Roboto, sans-serif
   display: inline-block
   color: rgb(255, 255, 255)
-  border-radius: 2px
+  @include border-radius(2px)
   background-color: $red
   font-size: 16px
   text-transform: uppercase
@@ -13,3 +13,13 @@
   transition: 0.2s ease
   &:hover
     @include box-shadow(0px, 2px, 6px, rgba(0,0,0,0.65))
+
+@mixin label ($label-color)
+  display: inline-block
+  vertical-align: top
+  margin-top: 25px
+  font-size: 14px
+  font-weight: lighter
+  background-color: $label-color
+  padding: 2px 6px
+  color: white
