@@ -10,8 +10,19 @@
     <nav class="navbar">
       <a title="MENU" href="#side-nav" class="menu-toggle"><i class="material-icons">menu</i></a>
       <a class="logo" href="{{ site.url }}/">MaciejOlszewski</a>
-      <i id="searchbutton" onclick="onClick()" title="SEARCH" class="material-icons search">search</i>
-      <input id="searchfield" class="searchbox hide" placeholder="search" name='search' type='text'  />
+      <!-- <i id="searchbutton" onclick="onClick()" title="SEARCH" class="material-icons search">search</i>
+      <input id="<searchf></searchf>ield"  placeholder="search" name='search' type='text'  /> -->
+
+      <div id="search" class="searchbox hide">
+                  <form role="search" method="get" action="{{site.baseurl}}/search/">
+                      <input id="searchString" name="searchString"
+                             placeholder="Search here..." type="text">
+                      <input id="searchButton" name="googleSearchName" type="submit" value="Search">
+                  </form>
+      </div>
+
+
+
       <ul class="navigation">
         <li title="PROJECTS"><a href="{{ site.url }}/"><i class="material-icons">view_list</i></a></li>
         <li title="ABOUT ME"><a href="{{ site.url }}/about/"><i class="material-icons">person</i></a></li>
