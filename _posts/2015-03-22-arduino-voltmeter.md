@@ -7,6 +7,7 @@ short-desc: Arduino LCD Basic Voltmeter
 img: LCD_schem_small.jpg
 permalink: ArduinoLCDvoltmeter
 ---
+
  LCD Basic Voltmeter
 
 

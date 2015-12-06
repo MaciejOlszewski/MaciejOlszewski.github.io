@@ -39,11 +39,13 @@ i
   transition: 0.2s ease
   &:hover
     text-shadow: 0px 2px 6px rgba(0,0,0,0.65)
+form.searchbox
+  margin: 0
 
 i.search
   margin-left: 65px
 
-input.searchbox
+#searchString
   margin-left: 10px
   display: block
   max-width: 220px
@@ -55,12 +57,14 @@ input.searchbox
   line-height: 30px
   @include border-radius(2px)
   background-color: rgba(255,255,255,0.8)
+
+form.searchbox
   transition: all 0.2s ease
   transform: scale(1)
   opacity: 1
   @include transform-origin(center left)
 
-input.searchbox.hide
+form.searchbox.hide
   transform: scale(0)
   opacity: 0
   transition: all 0.2s ease
