@@ -9,6 +9,7 @@ permalink: ViewportSize
 ---
 Extremely simple viewport size presentation script that outputs your viewport size to screen.
 
+
 HTML part:
 
 {% highlight html %}
