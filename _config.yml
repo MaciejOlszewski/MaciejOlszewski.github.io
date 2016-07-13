@@ -9,5 +9,7 @@ github_username:  MaciejOlszewski
 
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
+
+excerpt_separator: ""
