@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  "ArduinoHumiditySensor"
 date:   2016-07-13 10:00:00
 label: Post
