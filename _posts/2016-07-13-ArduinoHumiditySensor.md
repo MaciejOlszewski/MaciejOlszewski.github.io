@@ -1,8 +1,8 @@
 ---
-layout: project
+layout: post
 title:  "ArduinoHumiditySensor"
 date:   2016-07-13 10:00:00
-label: Post
+label: Project
 short-desc: Arduino plant humidity sensor with 3 LED's
 img: water_droplet.png
 permalink: ArduinoHumiditySensor
