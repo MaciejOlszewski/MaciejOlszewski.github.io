@@ -1,0 +1,9 @@
+{% if page.label == "Project" or page.label == "Post" %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@olszewskimaciek">
+  <meta name="twitter:creator" content="@olszewskimaciek">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:url" content="{{ site.url }}/{{ page.permalink }}">
+  <meta name="twitter:description" content="Up than 200 characters.">
+  <meta name="twitter:image:src" content="{{ site.url }}/images/post_imgs/{{page.img}}">
+{% endif %}
