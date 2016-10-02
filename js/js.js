@@ -1,3 +1,7 @@
+
+
+
+
 function onClick() {
   var searchfield = document.getElementById('search');
   var searchString = document.getElementById('searchString');
