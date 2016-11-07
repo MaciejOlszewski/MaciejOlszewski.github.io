@@ -11,7 +11,7 @@ permalink: ArduinoHumiditySensor
 
 {% highlight c++ %}
 
-//Humidity Sensor v.0.1 
+//Humidity Sensor v.0.2
 
 //Analog input pin
 int wilgotnosc = A0;
