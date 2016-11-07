@@ -5,13 +5,13 @@ date:   2016-07-13 10:00:00
 label: Project
 short-desc: Arduino plant humidity sensor with 3 LED's
 img: water_droplet.png
-permalink: ArduinoHumiditySensor
+permalink: ArduinoHumiditySensorv1
 ---
 
 
 {% highlight c++ %}
 
-//Humidity Sensor v.0.2
+//Humidity Sensor v.0.1
 
 //Analog input pin
 int wilgotnosc = A0;
